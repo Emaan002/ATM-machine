@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let userName = "Emaan";
 let userAns = await inquirer.prompt([
