@@ -14,7 +14,7 @@ let userAns = await inquirer.prompt(
 );
   if(userAns.user === userName){
     console.log(`Welcome ${userName}`);
-}
+
 
 let myBalance = 50000;
 let myPin = 12345;
@@ -80,3 +80,4 @@ if(operationAns.operation === "check balance"){
 else {
     console.log("incorret pin number");
 }
+  }
