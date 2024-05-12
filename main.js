@@ -10,7 +10,7 @@ let userAns = await inquirer.prompt([
 ]);
 if (userAns.user === userName) {
     console.log(`Welcome ${userName}`);
-}
+
 let myBalance = 50000;
 let myPin = 12345;
 let pinAnswer = await inquirer.prompt([
@@ -65,4 +65,5 @@ if (pinAnswer.pin === myPin) {
 }
 else {
     console.log("incorret pin number");
+}
 }
